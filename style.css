@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 50px;
+}
+.para1{
+    font-size: 30px;
+}
+li a{
+    color: white;
+}
+ul {
+    display: flex;
+    background:black ;
+    padding: 8px;
+    width: 100%;
+    position: fixed;
+    justify-content: flex-end;
+    
+
+}
+ul  a {
+    display:inline-block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+    background-color: #1ABC9C;
+    margin: 1rem;
+    padding: 0.4rem 0; 
+    text-align: center; 
+    border: 1px dashed #fff;
+    border-radius: 8px; 
+} 
+ul a:hover {
+  background-color: #ed2794;
+  color: yellowgreen;
+ 
+}
+.presentation-image {
+	margin-top: 5%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.presentation-image img {
+	max-width: 100%;
+	height: auto;
+}
+.projects-section {
+	margin-top: 6%;
+}
+  
+.projects-section h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3vw;
+}
+.projects-section .projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+.projects-section .project {
+	margin-right: 20px;
+	max-width: 195px;
+}
+.projects-section .project h4 {
+	margin: 0;
+}
+.projects-section .project .description {
+	font-size: 10px;
+}
+.projects-section .project .dates {
+	font-size: 13px;
+	color: rgb(145, 145, 145);
+}
+footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+footer .colonne p:hover {
+	color: #fff;
+}
